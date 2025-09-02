@@ -99,4 +99,4 @@ PWDatConverter.exe pw2txt cloud.pw cloud_converted.txt
 
 ## License
 
-MIT License (or specify your own)
+MIT License

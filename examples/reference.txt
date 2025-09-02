@@ -1,0 +1,2 @@
+sample pointcloud from https://graphics.stanford.edu/data/3Dscanrep/
+"Vellum manuscript" from XYZRGB Inc. converted to point cloud using Cloudcompare Mesh -> Sample Points (Density 10.0)

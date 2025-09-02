@@ -86,7 +86,7 @@ PWDatConverter.exe txt2pw cloud.txt cloud.pw
 PWDatConverter.exe pw2txt cloud.pw cloud_converted.txt
 ```
 
-**One can use the provided point clouds in the "examples" directory to test.**
+> **Note:** One can use the provided point clouds in the "examples" directory to test.
 ---
 
 ## Notes

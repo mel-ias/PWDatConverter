@@ -5,12 +5,6 @@ Converting 3D point clouds in TXT format to a very fast binary format (PW).
 The prebuilt `PWDatConverter.exe` was compiled using GCC with MinGW for Windows 64 Bit.  
 If you do not have a compiler installed, you can follow the official [Visual Studio Code MinGW setup guide](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites).
 
-After verifying that `gcc`, `g++`, and `gdb` are installed and available in your PATH (check with `gcc --version`, `g++ --version`), please also install `make` via:
-
-```
-pacman -S make
-```
-
 PWDatConverter does not require any additional libraries and can be easily built using the provided `Makefile`.
 
 > **Note:** The generated PW file is compatible with [GIRAFFE](https://github.com/mel-ias/GIRAFFE), a high-performance point cloud renderer and analysis tool.
@@ -25,10 +19,10 @@ PWDatConverter does not require any additional libraries and can be easily built
 
 2. **Build:**
 
-   Open a terminal in the project directory and run:
+   Open a terminal in the project directory and run (on Windows!):
 
    ```
-   make
+   mingw32-make
    ```
 
    This will produce the executable `PWDatConverter`.
@@ -36,7 +30,7 @@ PWDatConverter does not require any additional libraries and can be easily built
 3. **Clean build files:**
 
    ```
-   make clean
+   mingw32-make clean
    ```
 
 ---
